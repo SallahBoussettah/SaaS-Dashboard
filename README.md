@@ -43,7 +43,11 @@ Visit the live demo at [https://saas-dashboard-demo.netlify.app](https://saas-da
 
 1. Clone the repository
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/SallahBoussettah/SaaS-Dashboard.git
+=======
+git clone https://github.com/SallahBoussettah/SaaS-Dashboard
+>>>>>>> de7de9d4a7048295f67323f106e63715967b04ad
 ```
 
 2. Navigate to the project directory
