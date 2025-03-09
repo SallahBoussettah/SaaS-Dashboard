@@ -1,5 +1,5 @@
 [build]
-base = "saas-dashboard"
+base = "."
 command = "npm run build"
 publish = "build"
 
