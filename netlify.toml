@@ -1,15 +1,9 @@
-  cat > netlify.toml << 'EOL'
-   [build]
-     base = "saas-dashboard"
-     command = "npm run build"
-     publish = "build"
-   
-   [build.environment]
-     CI = "false"
-     NODE_VERSION = "16"
-   
-   [[redirects]]
-     from = "/*"
-     to = "/index.html"
-     status = 200
-   EOL
+[build]
+base = "saas-dashboard"
+command = "npm run build"
+publish = "build"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200 
