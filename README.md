@@ -36,7 +36,7 @@ A modern dashboard template for SaaS applications with a focus on analytics, use
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/SallahBoussettah/SaaS-Dashboard
 ```
 
 2. Navigate to the project directory
